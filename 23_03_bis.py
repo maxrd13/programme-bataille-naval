@@ -129,9 +129,7 @@ def strat():
 l_cible=cible()     ##les cibles que doit toucher le joueur defnie aleatoirement comme cible appartenant a lordinateur
 l_cible_j=cible()   ## les cibles que doit toucher l'ordinateur defini aleatoirement comme cible appartenant au joueur
 d_info={}   ## dictionnaire qui collecte les info Nord, Sud, Est et West ainsi que les coordonées qui ont déjà été tiré afin de ne pas avoir 2 fois les mêmes
-n=0
-while l_cible !=[] and l_cible_j !=[]:## déroulé d'une partie sans interruption
-    n=n+1
+while l_cible !=[] and l_cible_j !=[]:      ## déroulé d'une partie sans interruption
     print(n)
     coord=joueur()  ## donne a coord les valeur que le joueur a defini
     joueur_1(coord) ## la fonction est appeler avc coord comme paramêtre 
